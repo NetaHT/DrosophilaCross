@@ -119,7 +119,7 @@ Plan crosses to reach a target genotype.
 1. **Parent Stocks**: At least one of the parents needs to suit a female genotype (balanced/homozygous alleles only), and the program will assign gender to the parents accrodingly.
 Note: The program only supports autosomes.
    
-3. **Target Genotype**: Enter desired genotype (format: `2:allele/allele 3:allele/allele 4:allele/allele`). "space" separates chromosomes, "/" separates alleles.
+3. **Target Genotype**: Enter desired genotype (format: `2:allele1/allele2 3:allele1/allele2 4:allele1/allele2`). "space" separates chromosomes, "/" separates alleles.
    
 4. **Max Generations**: Search limit (1-5 generations)
 
