@@ -117,7 +117,7 @@ class TargetPlannerGUI:
 
         # Target
         ttk.Label(left_panel, text="Target Genotype", font=("Arial", 12, "bold")).pack(anchor=tk.W, pady=(10, 5))
-        ttk.Label(left_panel, text="Format: 2:a/b 3:a/b 4:a/b").pack(anchor=tk.W, pady=(0, 5))
+        ttk.Label(left_panel, text="Format: 2:allele1/allele2 3:allele1/allele2 4:allele1/allele2").pack(anchor=tk.W, pady=(0, 5))
         self.target_var = tk.StringVar()
         ttk.Entry(left_panel, textvariable=self.target_var, width=35).pack(fill=tk.X, pady=(0, 15))
 
