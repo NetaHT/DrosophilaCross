@@ -19,7 +19,8 @@ LETHALITY_MARKERS = {"Sp", "CyO", "TM6B", "TM3", "MKRS", "Pin"}
 
 # Balancer markers (for suppressing recombination on autosomes in females)
 # NOTE: include MKRS if you treat it as a balancer (many labs do).
-BALANCER_MARKERS = {"FM7", "CyO", "TM6B", "TM3", "MKRS"}
+# NOTE: "TM6" catches both "TM6B" and "TM6,Tb" variants (substring match)
+BALANCER_MARKERS = {"FM7", "CyO", "TM6B", "TM3", "MKRS", "TM6"}
 
 
 # -----------------------------------------------------------------------------

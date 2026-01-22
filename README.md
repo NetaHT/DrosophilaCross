@@ -343,6 +343,20 @@ F1→F2: Select G1 (female) × G2 (male) → can reach target in F2
        Instead of F0 → F1 → F2 → F3 with single F1 selected
 ```
 
+---
+
+## Example crosses
+
+### Crossing existing stocks
+Parent 1: B02:1
+Parent 2: B03:2
+Target Genotype: 2:Pin/CyO 3:TM3,Sb/TM6,Tb 4:+/+
+
+### Using direct genotype
+Parent 1: 2:71G10-Gal4/71G10-Gal4 3:+/+ 4:+/+
+Parent 2: 2:sp/CyO 3:UAS-GFP/TM6,Tb 4:+/+
+Parent 3: 2:71G10-Gal4/CyO 3:UAS-GFP/TM6,Tb 4:+/+
+
 ## Testing & Verification
 
 Run test suite to verify installation:
